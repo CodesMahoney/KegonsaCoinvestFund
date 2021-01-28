@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="icon" type="image/ico" href="favicon.ico" />
 
-    <meta name="description" content="The Kegonsa Seed Fund is Wisconsin's premier seed venture capital fund. It is managed by Kegonsa Capital Partners, LLC, a leading Wisconsin venture capital management firm.">
+    <meta name="description" content="Welcome to Kegonsa Coinvest Fund. The Fund is managed by Kegonsa Capital Partners, LLC, a Wisconsin-based venture capital management firm. The primary Fund objective is investor return. The Fund coinvests in rounds led by larger regional and national venture capital firms.  The Fund invests primarily in rounds two, three and four with $5-20MM of investment in each round and expected portfolio company exits of $50M-150M.">
     <meta name="Keywords" content="money for minnows, seed funding, seed venture capital, wisconsin venture capital, wisconsin entrepreneurs, wisconsin new businesses, wisconsin job creation">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Growth Stage Funding | Growth Venture Capital | Wisconsin Venture Capital</title>
@@ -38,7 +38,7 @@
     </script>
     <base href="/" />
 </head>
-<body ng-app="app" ng-controller="pageCtrl">
+<body>
 
     <nav class="animated fadeInRight d-none d-md-block">
         <div class="container" style="border: none; color: black; padding: 0;">
@@ -46,10 +46,10 @@
                 <div class="col-lg-5 col-sm-0"></div>
                 <div class="col-lg-7 col-sm-12">
                     <div id="mynav" class="row">
-                        <div class="col-2"><a href="/" ng-class="{'active' : $location.path() == '/' }">Home</a></div>
-                        <div class="col"><a href="/Strategy" ng-class="{'active' : $location.path() == '/Strategy' }">Investment Strategy</a></div>
-                        <div class="col"><a href="/Partners" ng-class="{'active' : $location.path() == '/Partners' }">Coinvest Partners</a></div>
-                        <div class="col-2"><a href="/Exits" ng-class="{'active' : $location.path() == '/Exits' }">Exits</a></div>
+                        <div class="col-2"><a href="/" class="active">Home</a></div>
+                        <div class="col"><a href="/Strategy">Investment Strategy</a></div>
+                        <div class="col"><a href="/Partners">Coinvest Partners</a></div>
+                        <div class="col-2"><a href="/Exits">Exits</a></div>
                     </div>
                 </div>
             </div>
@@ -71,17 +71,31 @@
         <nav id="mobilenav" class="d-none d-mdorless-block d-md-none">
             <div class="container">
                 <div id="mynav" class="row">
-                    <div class="col-sm-6"><a href="/" ng-class="{'active' : $location.path() == '/' }">Home</a></div>
-                    <div class="col-sm-6"><a href="/Strategy" ng-class="{'active' : $location.path() == '/Strategy' }">Investment Strategy</a></div>
-                    <div class="col-sm-6"><a href="/Partners" ng-class="{'active' : $location.path() == '/Partners' }">Coinvest Partners</a></div>
-                    <div class="col-sm-6"><a href="/Exits" ng-class="{'active' : $location.path() == '/Exits' }">Exits</a></div>
+                    <div class="col-sm-6"><a href="/" class="active">Home</a></div>
+                    <div class="col-sm-6"><a href="/Strategy">Investment Strategy</a></div>
+                    <div class="col-sm-6"><a href="/Partners">Coinvest Partners</a></div>
+                    <div class="col-sm-6"><a href="/Exits">Exits</a></div>
                 </div>
             </div>
         </nav>
     </div>
 
     <div id="content">
-        <div ng-view></div>
+        <section id="About" class="animated fadeInUp">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1>Welcome to Kegonsa Coinvest Fund</h1>
+                        <p>The Fund is managed by Kegonsa Capital Partners, LLC, a Wisconsin-based venture capital management firm. The primary Fund objective is investor return. The Fund coinvests in rounds led by larger regional and national venture capital firms.  The Fund invests primarily in rounds two, three and four with $5-20MM of investment in each round and expected portfolio company exits of $50M-150M.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="disclosure" class="animated fadeInUp">
+            <div class="container">
+                <strong>Disclosure: </strong> The Kegonsa Coinvest Fund is not seeking investors in the Fund nor in any portfolio companies. The Kegonsa Coinvest Fund is no longer making investments in new companies
+            </div>
+        </section>
     </div>
 
     <footer class="animated fadeInUp">
@@ -104,10 +118,6 @@
         </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular.js" integrity="sha256-47AQCzX6dqzjicKe4PabaBJtLnWffl34LU9WJUulNog=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular-route.js" integrity="sha256-AL1+LnGW9wl5bbvR2aXuGAmYsPKLYHzFbeRyHvPUHw8=" crossorigin="anonymous"></script>
-    <script src="scripts/app.js"></script>
-    <script src="scripts/pageCtrl.js"></script>
     <script type="text/javascript">
         $(function () {
             var i = 1;
