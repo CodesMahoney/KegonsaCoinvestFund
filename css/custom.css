@@ -376,6 +376,11 @@ footer .address a:before {
   animation-duration: 1s;
   animation-fill-mode: both; }
 
+#exit_thumb_container img
+{
+    width: 100%;
+}
+
 @keyframes fadeInUp {
   from {
     opacity: 0;
